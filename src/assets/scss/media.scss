@@ -1,0 +1,49 @@
+@media (min-width: 767px){ //>=768的设备 
+  .lxl-header{
+    width: 100%;
+  }
+  .lxl-swiper{
+    height: 500px;
+  }
+  .lxl-footer{
+    width: 86%;
+  }
+  .about_project{
+    height: 250px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 991px){ //>=991的设备 
+  .lxl-header{
+    width: 90%;
+  }
+  .lxl-swiper{
+    height: 500px;
+  }
+  .lxl-footer{
+    width: 85%;
+  }
+  .about_project{
+    height: 300px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1030px) {
+  .lxl-footer{
+    width: 85%;
+  }
+}
+
+@media (min-width: 1199px){ //>=1199的设备
+  .lxl-header{
+    width: 80%;
+  }
+  .lxl-swiper{
+    height: 550px;
+  }
+  .about_project{
+    padding: 0 100px;
+  }
+}
