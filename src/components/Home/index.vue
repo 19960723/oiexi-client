@@ -2,12 +2,16 @@
   <div class="homeContainer">
     <about-com></about-com>
     <new-com ></new-com>
+    <partner-com></partner-com>
+    <case-show-com></case-show-com>
   </div>
 </template>
 
 <script>
 import aboutCom from './about'
 import newCom from './news'
+import partnerCom from './partner'
+import caseShowCom from './caseShow'
 export default {
   data () {
     return {
@@ -16,7 +20,9 @@ export default {
 
   components: {
     aboutCom,
-    newCom
+    newCom,
+    partnerCom,
+    caseShowCom
   }
 }
 </script>

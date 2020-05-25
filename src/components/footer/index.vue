@@ -52,10 +52,11 @@ export default {
         h3{
           color: #31a0e1;
           font-size: 18px;
+          margin: 25px 0;
         }
       }
       .footer-qrcode{
-        margin-left: 50px;
+        margin-left: 150px;
         img{
           width: 150px;
           height: 150px;
@@ -70,10 +71,14 @@ export default {
       display: flex;
       justify-content: center;
       border-top: 1px solid #201b25;
+      height: 40px;
       line-height: 40px;
       color: rgb(178, 177, 177);
       font-size: 12px;
       text-align: center;
+      span{
+        line-height: 40px;
+      }
     }
   }
 }

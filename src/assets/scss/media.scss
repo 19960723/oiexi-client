@@ -12,6 +12,18 @@
     height: 250px;
     padding: 0 20px;
   }
+  .news_nav{
+    width: 90%;
+    .news_show_left{
+      width: 38%;;
+    }
+  }
+  .case_slide_list{
+    width: 100%;
+  }
+  .about_show{
+    width: 90%;
+  }
 }
 
 @media (min-width: 991px){ //>=991的设备 
@@ -28,11 +40,35 @@
     height: 300px;
     padding: 0 20px;
   }
+  .news_nav{
+    width: 85%;
+    .news_show_left{
+      width: 38%;
+    }
+  }
+  .case_slide_list{
+    width: 90%;
+  }
+  .about_show{
+    width: 80%;
+  }
 }
 
 @media (min-width: 1030px) {
   .lxl-footer{
     width: 85%;
+  }
+  .news_nav{
+    width: 80%;
+    .news_show_left{
+      width: 35%;
+    }
+  }
+  .case_slide_list{
+    width: 80%;
+  }
+  .about_show{
+    width: 70%;
   }
 }
 
@@ -45,5 +81,11 @@
   }
   .about_project{
     padding: 0 100px;
+  }
+  .case_slide_list{
+    width: 70%;
+  }
+  .about_show{
+    width: 60%;
   }
 }
