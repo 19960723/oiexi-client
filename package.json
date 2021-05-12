@@ -10,7 +10,7 @@
   "dependencies": {
     "@types/swiper": "^5.3.1",
     "core-js": "^3.6.4",
-    "swiper": "^5.4.1",
+    "swiper": "^6.5.1",
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1",
     "vue-class-component": "^7.2.3",
